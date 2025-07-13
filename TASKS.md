@@ -114,14 +114,41 @@ Mark tasks as ✅ when completed. Add new tasks as discovered.
 - [ ] Implement documentation validation in CI/CD
 - [ ] Add troubleshooting section to common issues
 
-## Documentation Improvements (Next Phase)
-- [ ] Add visual diagrams and flowcharts to technical docs
-- [ ] Create wireframe images for UI documentation
-- [ ] Add screenshots to Unity setup guide
-- [ ] Create architecture diagrams with PlantUML or Mermaid
-- [ ] Implement automated link checking in CI/CD
+## Phase 0: Pre-Development Documentation (Priority - Solo Developer Focus)
+
+### Visual Documentation (Week 0.1)
+- [x] Create architecture diagram with Mermaid showing system components (docs/reference/ARCHITECTURE_DIAGRAM.md)
+- [x] Draw game state machine diagram for GameStateManager (included in ARCHITECTURE_DIAGRAM.md)
+- [x] Create physics system flowchart (input → jets → water → balls → goals) (included in ARCHITECTURE_DIAGRAM.md)
+- [ ] Sketch UI wireframes for all screens (can be hand-drawn, then scanned)
+- [ ] Create visual git workflow diagram for solo development
+
+### Quick Reference Guides (Week 0.2)
+- [x] Create UNITY_CHEATSHEET.md with common commands and shortcuts (docs/reference/UNITY_CHEATSHEET.md)
+- [ ] Write DEBUGGING_GUIDE.md with common Unity issues and solutions
+- [ ] Create PERFORMANCE_CHECKLIST.md for optimization steps
+- [x] Write CODE_PATTERNS.md with Unity best practices for this project (docs/reference/CODE_PATTERNS.md)
+- [x] Create DAILY_WORKFLOW.md for consistent solo dev routine (docs/reference/DAILY_WORKFLOW.md)
+
+### Development Templates (Week 0.3)
+- [ ] Create test template files for each test category (unit, integration, performance)
+- [ ] Write Unity component templates (Manager, Controller, Handler patterns)
+- [ ] Create physics calculation snippet library
+- [ ] Build UI component templates matching the design system
+- [ ] Create bug report template for self-tracking
+
+### Solo Developer Tools (Week 0.4)
+- [x] Set up DECISIONS.md to log important choices and rationale (docs/reference/DECISIONS.md)
+- [ ] Create DAILY_LOG.md template for progress tracking
+- [ ] Build simple bug tracking spreadsheet (Google Sheets/Excel)
+- [ ] Create performance benchmark recording template
+- [ ] Set up personal kanban board (Trello/Notion alternative to TASKS.md)
+
+### Documentation Improvements (Lower Priority)
+- [ ] Add screenshots to Unity setup guide (during actual setup)
+- [ ] Implement automated link checking (if time permits)
 - [ ] Add CHANGELOG.md for version tracking
-- [ ] Create troubleshooting documentation
+- [ ] Create troubleshooting documentation (as issues arise)
 - [ ] Add API reference structure for future code docs
 
 ## Ongoing Tasks

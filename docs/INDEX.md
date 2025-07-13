@@ -71,9 +71,22 @@
 3. Check [Performance Constraints](technical/PERFORMANCE_TARGETS.md)
 4. Reference [Unity Setup](technical/UNITY_SETUP.md) for implementation
 
+## Solo Developer Resources
+
+### 🚀 Quick References
+| Document | Purpose | Status |
+|----------|---------|--------|
+| [Unity Cheatsheet](reference/UNITY_CHEATSHEET.md) | Commands, shortcuts, patterns | ✅ Ready |
+| [Daily Workflow](reference/DAILY_WORKFLOW.md) | Solo dev routine and process | ✅ Ready |
+| [Code Patterns](reference/CODE_PATTERNS.md) | Unity patterns and templates | ✅ Ready |
+| [Architecture Diagrams](reference/ARCHITECTURE_DIAGRAM.md) | Visual system design | ✅ Ready |
+| [Decisions Log](reference/DECISIONS.md) | Track important choices | ✅ Ready |
+
 ## Future Documentation
 
 ### Planned (Development Phase)
+- [ ] **Debugging Guide** - Common Unity issues and solutions
+- [ ] **Performance Checklist** - Optimization steps
 - [ ] **API Reference** - Code documentation
 - [ ] **Changelog** - Version history
 - [ ] **Troubleshooting** - Common issues and solutions
