@@ -1,5 +1,9 @@
 # Physics Design Document - Waterball Game
 
+**Navigation:** [← Unity Setup](UNITY_SETUP.md) | [Back to Index](../INDEX.md) | [Next: Performance →](PERFORMANCE_TARGETS.md)
+
+**Quick Links:** [Water Physics](#water-physics-simulation) | [Ball Physics](#ball-physics) | [Force Systems](#force-systems)
+
 ## Overview
 This document defines the physics simulation requirements and calculations for realistic water and ball interactions in the Waterball Game.
 

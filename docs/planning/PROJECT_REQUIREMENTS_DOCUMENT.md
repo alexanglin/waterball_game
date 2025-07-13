@@ -1,5 +1,9 @@
 # Waterball Game - Project Requirements Document (PRD)
 
+**Navigation:** [← Game Mechanics](GAME_MECHANICS.md) | [Back to Index](../INDEX.md) | [Next: Plan →](PLAN.md)
+
+**Quick Links:** [Functional Requirements](#2-functional-requirements) | [Technical Requirements](#4-technical-requirements) | [Testing](#6-testing-requirements)
+
 ## 1. Project Overview
 
 ### 1.1 Purpose

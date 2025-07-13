@@ -1,5 +1,9 @@
 # Unity Setup Guide - Waterball Game
 
+**Navigation:** [← Architecture](ARCHITECTURE.md) | [Back to Index](../INDEX.md) | [Next: Physics Design →](PHYSICS_DESIGN.md)
+
+**Quick Links:** [Unity Installation](#unity-installation) | [Project Configuration](#unity-project-configuration) | [Water Physics](#water-physics-solutions)
+
 ## Required Software
 
 ### Unity Installation

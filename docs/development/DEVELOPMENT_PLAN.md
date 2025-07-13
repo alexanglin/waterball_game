@@ -1,5 +1,9 @@
 # Waterball Game - Detailed Development Plan
 
+**Navigation:** [← Performance](../technical/PERFORMANCE_TARGETS.md) | [Back to Index](../INDEX.md) | [Next: Testing →](TESTING_STRATEGY.md)
+
+**Quick Links:** [TDD Methodology](#development-methodology-test-driven-development-tdd) | [Phases](#phase-1-foundation-setup-week-1) | [Quality Gates](#8-quality-gates)
+
 ## Development Methodology: Test-Driven Development (TDD)
 
 ### TDD Cycle for Unity

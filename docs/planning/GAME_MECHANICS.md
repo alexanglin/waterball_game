@@ -1,5 +1,9 @@
 # Water Hockey Game - Mobile Adaptation
 
+**Navigation:** [← Back to Index](../INDEX.md) | [Next: Requirements →](PROJECT_REQUIREMENTS_DOCUMENT.md)
+
+**Quick Links:** [Physical Game](#physical-game-analysis) | [Mobile Adaptation](#mobile-adaptation-considerations)
+
 ## Physical Game Analysis
 
 ### Core Mechanics

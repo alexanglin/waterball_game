@@ -14,28 +14,28 @@ Mobile adaptation of the classic water-filled handheld hockey game where players
 ## 🚀 Quick Start
 
 ### For Developers
-1. **Setup:** Follow [Unity Setup Guide](UNITY_SETUP.md)
-2. **Architecture:** Review [Technical Architecture](ARCHITECTURE.md)  
-3. **Development:** Start with [Development Plan](DEVELOPMENT_PLAN.md)
+1. **Setup:** Follow [Unity Setup Guide](docs/technical/UNITY_SETUP.md)
+2. **Architecture:** Review [Technical Architecture](docs/technical/ARCHITECTURE.md)  
+3. **Development:** Start with [Development Plan](docs/development/DEVELOPMENT_PLAN.md)
 
 ### For Project Managers
-1. **Requirements:** See [Project Requirements](PROJECT_REQUIREMENTS_DOCUMENT.md)
-2. **Roadmap:** Check [Development Plan](PLAN.md)
+1. **Requirements:** See [Project Requirements](docs/planning/PROJECT_REQUIREMENTS_DOCUMENT.md)
+2. **Roadmap:** Check [Development Plan](docs/planning/PLAN.md)
 3. **Progress:** Track in [Tasks](TASKS.md)
 
 ### For Designers
-1. **Game Analysis:** Review [Game Mechanics](GAME_MECHANICS.md)
-2. **UI Design:** See [UI/UX Design](UI_UX_DESIGN.md)
-3. **Performance:** Check [Performance Targets](PERFORMANCE_TARGETS.md)
+1. **Game Analysis:** Review [Game Mechanics](docs/planning/GAME_MECHANICS.md)
+2. **UI Design:** See [UI/UX Design](docs/development/UI_UX_DESIGN.md)
+3. **Performance:** Check [Performance Targets](docs/technical/PERFORMANCE_TARGETS.md)
 
 ## 📋 Documentation
 
 | Category | Documents | Purpose |
 |----------|-----------|---------|
-| **Planning** | [Requirements](PROJECT_REQUIREMENTS_DOCUMENT.md), [Plan](PLAN.md), [Tasks](TASKS.md) | Project scope and roadmap |
-| **Technical** | [Architecture](ARCHITECTURE.md), [Unity Setup](UNITY_SETUP.md), [Physics](PHYSICS_DESIGN.md) | Implementation guides |
-| **Development** | [TDD Plan](DEVELOPMENT_PLAN.md), [Testing](TESTING_STRATEGY.md), [UI/UX](UI_UX_DESIGN.md) | Development methodology |
-| **Performance** | [Targets](PERFORMANCE_TARGETS.md), [Optimization](PERFORMANCE_TARGETS.md) | Quality standards |
+| **Planning** | [Requirements](docs/planning/PROJECT_REQUIREMENTS_DOCUMENT.md), [Plan](docs/planning/PLAN.md), [Tasks](TASKS.md) | Project scope and roadmap |
+| **Technical** | [Architecture](docs/technical/ARCHITECTURE.md), [Unity Setup](docs/technical/UNITY_SETUP.md), [Physics](docs/technical/PHYSICS_DESIGN.md) | Implementation guides |
+| **Development** | [TDD Plan](docs/development/DEVELOPMENT_PLAN.md), [Testing](docs/development/TESTING_STRATEGY.md), [UI/UX](docs/development/UI_UX_DESIGN.md) | Development methodology |
+| **Performance** | [Targets](docs/technical/PERFORMANCE_TARGETS.md), [Optimization](docs/technical/PERFORMANCE_TARGETS.md) | Quality standards |
 
 ## 🎮 Game Features
 

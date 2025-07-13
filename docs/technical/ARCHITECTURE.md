@@ -1,5 +1,9 @@
 # Waterball Game - Architecture Design
 
+**Navigation:** [← Plan](../planning/PLAN.md) | [Back to Index](../INDEX.md) | [Next: Unity Setup →](UNITY_SETUP.md)
+
+**Quick Links:** [Technology Stack](#technology-stack-options) | [Architecture](#proposed-architecture-unity-based) | [Performance](#performance-considerations)
+
 ## Technology Stack Decision: Unity
 
 ### Why Unity?

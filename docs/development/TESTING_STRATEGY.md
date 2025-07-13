@@ -1,5 +1,9 @@
 # Testing Strategy - Waterball Game
 
+**Navigation:** [← Development Plan](DEVELOPMENT_PLAN.md) | [Back to Index](../INDEX.md) | [Next: UI/UX Design →](UI_UX_DESIGN.md)
+
+**Quick Links:** [Testing Philosophy](#testing-philosophy) | [Unit Tests](#1-unit-tests-80-coverage-target) | [Performance Tests](#3-performance-tests)
+
 ## Testing Philosophy
 Follow Test-Driven Development (TDD) with comprehensive coverage across all game systems. Write tests first, implement features second, refactor third.
 

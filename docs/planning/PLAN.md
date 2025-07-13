@@ -1,5 +1,9 @@
 # Waterball Game - Development Plan
 
+**Navigation:** [← Requirements](PROJECT_REQUIREMENTS_DOCUMENT.md) | [Back to Index](../INDEX.md) | [Next: Architecture →](../technical/ARCHITECTURE.md)
+
+**Quick Links:** [Phases](#development-phases) | [Milestones](#key-milestones) | [Risk Mitigation](#risk-mitigation)
+
 ## Overview
 This document outlines the development roadmap for the Waterball Game, a mobile adaptation of the classic water-filled handheld hockey game. Development follows Test-Driven Development (TDD) methodology with a 10-week timeline.
 

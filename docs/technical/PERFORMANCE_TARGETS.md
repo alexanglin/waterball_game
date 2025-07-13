@@ -1,5 +1,9 @@
 # Performance Targets - Waterball Game
 
+**Navigation:** [← Physics Design](PHYSICS_DESIGN.md) | [Back to Index](../INDEX.md) | [Next: Development Plan →](../development/DEVELOPMENT_PLAN.md)
+
+**Quick Links:** [Performance Philosophy](#performance-philosophy) | [Target Frame Rates](#target-frame-rates) | [Optimization](#optimization-strategies)
+
 ## Performance Philosophy
 Deliver smooth, responsive gameplay that prioritizes player experience over visual complexity. Implement adaptive quality systems that maintain performance across all target devices.
 

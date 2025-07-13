@@ -1,12 +1,14 @@
 # Waterball Game - Project Guidelines
 
 ## Important: Start of Conversation Protocol
-1. **Always read PLAN.md first** to understand the project roadmap
+1. **Always read docs/planning/PLAN.md first** to understand the project roadmap
 2. **Read TASKS.md** to see current progress and pending tasks
 3. **Check docs/INDEX.md** for documentation organization
 4. **Mark tasks as completed immediately** when finished
 5. **Add any new tasks** discovered during work to TASKS.md
 6. **Update cross-references** when modifying documentation
+7. **Use navigation headers** in all documentation files
+8. **Run scripts/validate_docs.sh** before committing major doc changes
 
 ## Project Overview
 Mobile adaptation of a classic water-filled handheld hockey game where players use water jets to push balls into goals.
@@ -50,9 +52,11 @@ Mobile adaptation of a classic water-filled handheld hockey game where players u
 - Performance-optimized code for smooth gameplay
 
 ## Documentation Standards
-- **Organization**: Use docs/ directory structure (planning/, technical/, development/)
-- **Navigation**: Add navigation headers to all documents
-- **Cross-References**: Link related documents in "See Also" sections
+- **Organization**: Use docs/ directory structure (planning/, technical/, development/, reference/)
+- **Navigation**: Add navigation headers with prev/next links and quick access
+- **Cross-References**: Link related documents and maintain link accuracy
 - **Maintenance**: Update documentation with implementation changes
 - **Quality**: Ensure accuracy, clarity, and current information
 - **Access**: Use docs/INDEX.md for role-based navigation
+- **Validation**: Run scripts/validate_docs.sh to check structure
+- **Automation**: Use scripts/ directory for setup and maintenance tools

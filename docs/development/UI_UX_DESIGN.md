@@ -1,5 +1,9 @@
 # UI/UX Design Document - Waterball Game
 
+**Navigation:** [← Testing Strategy](TESTING_STRATEGY.md) | [Back to Index](../INDEX.md)
+
+**Quick Links:** [Design Philosophy](#design-philosophy) | [Screen Layouts](#screen-layouts) | [Visual Design](#visual-design-system)
+
 ## Design Philosophy
 - **Minimalist**: Clean interface that doesn't obstruct gameplay
 - **Nostalgic**: Subtle references to classic handheld water games
