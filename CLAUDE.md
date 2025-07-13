@@ -60,3 +60,13 @@ Mobile adaptation of a classic water-filled handheld hockey game where players u
 - **Access**: Use docs/INDEX.md for role-based navigation
 - **Validation**: Run scripts/validate_docs.sh to check structure
 - **Automation**: Use scripts/ directory for setup and maintenance tools
+- **Directory Guidance**: Each directory with files has a CLAUDE.md with specific guidelines
+
+## Directory-Specific Guidelines
+- **docs/**: Documentation organization and navigation ([CLAUDE.md](docs/CLAUDE.md))
+- **docs/planning/**: Requirements and roadmap maintenance ([CLAUDE.md](docs/planning/CLAUDE.md))
+- **docs/technical/**: Architecture and implementation specs ([CLAUDE.md](docs/technical/CLAUDE.md))
+- **docs/development/**: TDD methodology and testing ([CLAUDE.md](docs/development/CLAUDE.md))
+- **docs/reference/**: Process improvements and standards ([CLAUDE.md](docs/reference/CLAUDE.md))
+- **scripts/**: Automation tools and maintenance ([CLAUDE.md](scripts/CLAUDE.md))
+- **assets/**: Visual assets and media organization ([CLAUDE.md](assets/CLAUDE.md))

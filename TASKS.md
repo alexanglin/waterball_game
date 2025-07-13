@@ -106,6 +106,9 @@ Mark tasks as ✅ when completed. Add new tasks as discovered.
 - [x] Add cross-references between related documents
 - [x] Create setup automation script (scripts/setup.sh)
 - [x] Create documentation validation script (scripts/validate_docs.sh)
+- [x] Add CLAUDE.md files to each directory with specific guidelines
+- [x] Update main CLAUDE.md with directory-specific guidance references
+- [x] Update validation script to check for all CLAUDE.md files
 - [ ] Add visual diagrams to architecture documentation
 - [ ] Create CHANGELOG.md for version tracking
 - [ ] Implement documentation validation in CI/CD
