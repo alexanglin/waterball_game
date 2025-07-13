@@ -98,14 +98,30 @@ Mark tasks as ✅ when completed. Add new tasks as discovered.
 - [ ] Submit to App Store
 - [ ] Prepare day-one patch
 
+## Documentation Organization (New Priority)
+- [ ] Create docs/ directory structure (planning/, technical/, development/)
+- [ ] Move documentation files to appropriate subdirectories
+- [ ] Add navigation headers to all documentation files
+- [ ] Create docs/INDEX.md with role-based navigation
+- [ ] Add cross-references between related documents
+- [ ] Create setup automation script (scripts/setup.sh)
+- [ ] Add visual diagrams to architecture documentation
+- [ ] Create CHANGELOG.md for version tracking
+- [ ] Implement documentation validation in CI/CD
+- [ ] Add troubleshooting section to common issues
+
 ## Ongoing Tasks
 - [ ] Update documentation with changes
 - [ ] Maintain 80% test coverage
 - [ ] Performance profiling after each phase
 - [ ] Regular git commits with clear messages
+- [ ] Keep TASKS.md updated with new discoveries
+- [ ] Review and update documentation each sprint
 
 ## Notes
 - Always write tests before implementation (TDD)
 - Mark tasks complete immediately when finished
 - Add new tasks as they're discovered
 - Update time estimates based on actual progress
+- Keep documentation current with implementation changes
+- Use cross-references to link related documents
