@@ -1,5 +1,7 @@
 # Waterball Game - Task List
 
+**🎯 Current Status**: Unity 6.1 installed ✅ | **Next**: Create Unity project | **Guide**: [NEXT_STEPS.md](docs/reference/NEXT_STEPS.md)
+
 ## Task Tracking
 Mark tasks as ✅ when completed. Add new tasks as discovered.
 
@@ -23,9 +25,22 @@ Mark tasks as ✅ when completed. Add new tasks as discovered.
 ### Day 1: Unity Setup ⏱ 4-6 hours
 - [x] Install Unity Hub
 - [x] Install Unity 6.1 with iOS support
-- [ ] Create new Unity 3D (URP) project named "WaterballGame"
-- [ ] Switch platform to iOS
-- [ ] Verify initial build works
+- ⏳ **IN PROGRESS** - Ready to create project!
+
+**🎯 NEXT STEPS - Do These Now:** (Total time: ~2 hours)
+- [ ] Create new Unity 3D (URP) project named "WaterballGame" (30 min)
+  - Open Unity Hub → New Project → 3D (URP) template
+  - Name: WaterballGame
+  - Location: Your development folder
+- [ ] Switch platform to iOS (20 min)
+  - File → Build Settings → iOS → Switch Platform
+  - Wait for import to complete
+- [ ] Verify initial build works (30 min)
+  - Build Settings → Build → Create Builds/iOS/ folder
+  - Ensure no errors
+- [ ] Save project and create MainScene (10 min)
+  - File → Save As → Assets/_Game/Scenes/MainScene.unity
+  - Add scene to Build Settings
 
 ### Day 2: Git & Structure ⏱ 4 hours
 - [ ] Initialize git repository with Unity .gitignore
@@ -141,35 +156,25 @@ Mark tasks as ✅ when completed. Add new tasks as discovered.
 - [ ] Implement documentation validation in CI/CD
 - [ ] Add troubleshooting section to common issues
 
-## Phase 0: Pre-Development Documentation (Priority - Solo Developer Focus)
+## ✅ Phase 0: Pre-Development Documentation (COMPLETED)
 
-### Visual Documentation (Week 0.1)
-- [x] Create architecture diagram with Mermaid showing system components (docs/reference/ARCHITECTURE_DIAGRAM.md)
-- [x] Draw game state machine diagram for GameStateManager (included in ARCHITECTURE_DIAGRAM.md)
-- [x] Create physics system flowchart (input → jets → water → balls → goals) (included in ARCHITECTURE_DIAGRAM.md)
-- [ ] Sketch UI wireframes for all screens (can be hand-drawn, then scanned)
-- [ ] Create visual git workflow diagram for solo development
+### Visual Documentation ✓
+- [x] Architecture diagram with Mermaid (docs/reference/ARCHITECTURE_DIAGRAM.md)
+- [x] Game state machine diagram (in ARCHITECTURE_DIAGRAM.md)
+- [x] Physics system flowchart (in ARCHITECTURE_DIAGRAM.md)
 
-### Quick Reference Guides (Week 0.2)
-- [x] Create UNITY_CHEATSHEET.md with common commands and shortcuts (docs/reference/UNITY_CHEATSHEET.md)
-- [ ] Write DEBUGGING_GUIDE.md with common Unity issues and solutions
-- [ ] Create PERFORMANCE_CHECKLIST.md for optimization steps
-- [x] Write CODE_PATTERNS.md with Unity best practices for this project (docs/reference/CODE_PATTERNS.md)
-- [x] Create DAILY_WORKFLOW.md for consistent solo dev routine (docs/reference/DAILY_WORKFLOW.md)
+### Quick Reference Guides ✓
+- [x] UNITY_CHEATSHEET.md (docs/reference/UNITY_CHEATSHEET.md)
+- [x] CODE_PATTERNS.md (docs/reference/CODE_PATTERNS.md)
+- [x] DAILY_WORKFLOW.md (docs/reference/DAILY_WORKFLOW.md)
+- [x] DECISIONS.md (docs/reference/DECISIONS.md)
+- [x] NEXT_STEPS.md for current action items
 
-### Development Templates (Week 0.3)
-- [ ] Create test template files for each test category (unit, integration, performance)
-- [ ] Write Unity component templates (Manager, Controller, Handler patterns)
-- [ ] Create physics calculation snippet library
-- [ ] Build UI component templates matching the design system
-- [ ] Create bug report template for self-tracking
-
-### Solo Developer Tools (Week 0.4)
-- [x] Set up DECISIONS.md to log important choices and rationale (docs/reference/DECISIONS.md)
-- [ ] Create DAILY_LOG.md template for progress tracking
-- [ ] Build simple bug tracking spreadsheet (Google Sheets/Excel)
-- [ ] Create performance benchmark recording template
-- [ ] Set up personal kanban board (Trello/Notion alternative to TASKS.md)
+### Deferred to Later Phases
+- UI wireframes (do during Phase 5: UI Implementation)
+- Debugging guide (create as issues arise)
+- Performance checklist (create during Phase 7: Optimization)
+- Bug tracking (set up when bugs appear)
 
 ### Documentation Improvements (Lower Priority)
 - [ ] Add screenshots to Unity setup guide (during actual setup)
@@ -178,15 +183,24 @@ Mark tasks as ✅ when completed. Add new tasks as discovered.
 - [ ] Create troubleshooting documentation (as issues arise)
 - [ ] Add API reference structure for future code docs
 
+## 📍 Current Focus: Phase 1, Day 1 - Unity Project Setup
+**📖 Check [NEXT_STEPS.md](docs/reference/NEXT_STEPS.md) for detailed step-by-step instructions!**
+
+### Today's Goal
+Create and configure Unity project for iOS development. By end of day:
+- Unity project created with URP
+- iOS platform configured
+- Initial build successful
+- Basic scene saved
+
 ## Ongoing Tasks
 - [ ] Update documentation with implementation changes
-- [ ] Maintain 80% test coverage
-- [ ] Performance profiling after each phase
+- [ ] Check off tasks immediately when completed
+- [ ] Note Unity 6.1 specific discoveries
 - [ ] Regular git commits with clear messages
-- [ ] Keep TASKS.md updated with new discoveries
-- [ ] Review and update documentation each sprint
-- [ ] Run scripts/validate_docs.sh before major commits
-- [ ] Update cross-references when moving or changing docs
+- [ ] Keep TASKS.md updated with progress
+- [ ] Update time estimates based on actual time spent
+- [ ] Document any Unity 6.1 differences from tutorials
 
 ## Notes
 - Always write tests before implementation (TDD)
@@ -195,3 +209,5 @@ Mark tasks as ✅ when completed. Add new tasks as discovered.
 - Update time estimates based on actual progress
 - Keep documentation current with implementation changes
 - Use cross-references to link related documents
+- **Unity 6.1**: Document any version-specific differences encountered
+- **Daily Progress**: Update this file after each work session
