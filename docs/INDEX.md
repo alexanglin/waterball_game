@@ -39,7 +39,7 @@
 | Document | Purpose | Last Updated |
 |----------|---------|--------------|
 | [Architecture](technical/ARCHITECTURE.md) | System design | Initial |
-| [Unity Setup](technical/UNITY_SETUP.md) | Environment configuration | Initial |
+| [Unity Setup](technical/UNITY_SETUP.md) | Environment configuration (Unity 6.1) | Updated |
 | [Physics Design](technical/PHYSICS_DESIGN.md) | Water simulation specs | Initial |
 | [Performance Targets](technical/PERFORMANCE_TARGETS.md) | Optimization requirements | Initial |
 

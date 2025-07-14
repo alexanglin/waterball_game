@@ -8,7 +8,7 @@
 
 ### Unity Installation
 - **Unity Hub**: Latest version (download from unity.com)
-- **Unity Version**: 2022.3.15f1 LTS (Long Term Support)
+- **Unity Version**: 6.1 (Latest version)
 - **Platform Modules**: iOS Build Support
 
 ### Development Environment
@@ -24,6 +24,8 @@ Unity Hub → New Project → 3D (Universal Render Pipeline)
 Project Name: WaterballGame
 Location: [Your preferred directory]
 ```
+
+**Unity 6.1 Note**: The project templates may look different from Unity 2022 LTS. Choose the standard 3D (URP) template for best mobile performance.
 
 ### 2. Platform Settings
 1. Open Build Settings (File → Build Settings)
@@ -191,7 +193,26 @@ Builds/
 - **Memory warnings**: Enable texture compression
 - **Heat generation**: Lower quality settings
 
+## Unity 6.1 Specific Considerations
+
+### Advantages
+- Better mobile performance out of the box
+- Enhanced particle systems for water simulation
+- Improved iOS build pipeline
+- Modern rendering features
+
+### Potential Issues
+- Some older tutorials may not apply directly
+- Third-party assets may need Unity 6 compatible versions
+- Package Manager versions will be newer
+
+### Compatibility Notes
+- **Input System**: May have updated APIs
+- **URP Version**: Newer version with more features
+- **Build Settings**: Some options may be in different locations
+
 ## Next Steps
 1. Follow PHYSICS_DESIGN.md for water system implementation
 2. Reference TESTING_STRATEGY.md for test creation
 3. Use PLAN.md for development phases
+4. Document any Unity 6.1 specific issues in DECISIONS.md

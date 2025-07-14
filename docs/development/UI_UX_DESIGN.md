@@ -25,7 +25,7 @@
 │        [? HOW TO PLAY]         │
 │        [🏆 ACHIEVEMENTS]       │
 │                                 │
-│     Made with Unity 2022       │
+│     Made with Unity 6.1        │
 └─────────────────────────────────┘
 ```
 

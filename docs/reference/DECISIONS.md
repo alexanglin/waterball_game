@@ -24,12 +24,12 @@ Track important technical and design decisions for future reference. As a solo d
 ### 2024-01-13 - Unity Version Selection
 **Context**: Need stable Unity version for iOS development
 **Options Considered**: 
-1. Unity 2023.2 - Latest features but potentially unstable
-2. Unity 2022.3 LTS - Long-term support, proven stability
+1. Unity 6.1 - Latest features, newest rendering pipeline
+2. Unity 6.1 LTS - Long-term support, proven stability
 3. Unity 2021.3 LTS - Very stable but missing newer iOS features
-**Decision**: Unity 2022.3 LTS for stability and modern iOS support
-**Trade-offs**: Missing newest features for guaranteed stability
-**Revisit**: Only if critical iOS feature requires newer version
+**Decision**: Unity 6.1 for latest features and performance improvements
+**Trade-offs**: Less stability than LTS, but access to newest features
+**Revisit**: If stability issues arise, consider using an earlier LTS version
 
 ### 2024-01-13 - Water Physics Solution
 **Context**: Need realistic water simulation that performs well on mobile

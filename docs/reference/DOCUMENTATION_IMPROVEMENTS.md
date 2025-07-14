@@ -86,7 +86,7 @@ Mobile adaptation of classic water-filled handheld hockey game.
 #!/bin/bash
 # Automated Unity project setup
 echo "Setting up Waterball Game development environment..."
-# Download Unity Hub, install Unity 2022.3 LTS, etc.
+# Download Unity Hub, install Unity 6.1, etc.
 ```
 
 ## Content Improvements

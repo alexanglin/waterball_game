@@ -4,17 +4,27 @@
 1. **Always read docs/planning/PLAN.md first** to understand the project roadmap
 2. **Read TASKS.md** to see current progress and pending tasks
 3. **Check docs/INDEX.md** for documentation organization
-4. **Mark tasks as completed immediately** when finished
-5. **Add any new tasks** discovered during work to TASKS.md
-6. **Update cross-references** when modifying documentation
-7. **Use navigation headers** in all documentation files
-8. **Run scripts/validate_docs.sh** before committing major doc changes
+4. **Check current phase guide** in docs/reference/PHASE{N}_GUIDE.md
+5. **Mark tasks as completed immediately** when finished
+6. **Add any new tasks** discovered during work to TASKS.md
+7. **Update cross-references** when modifying documentation
+8. **Use navigation headers** in all documentation files
+9. **Run scripts/validate_docs.sh** before committing major doc changes
+
+## Phase Guide Maintenance
+When working on implementation:
+1. **Follow the current phase guide** step-by-step
+2. **Update guide with discoveries** - Add solutions to common issues
+3. **Track actual vs estimated time** - Update day breakdowns if needed
+4. **Document deviations** - Note when guide steps need modification
+5. **Add code examples** - Include working code snippets as implemented
+6. **Update success checkpoints** - Refine based on actual experience
 
 ## Project Overview
 Mobile adaptation of a classic water-filled handheld hockey game where players use water jets to push balls into goals.
 
 ## Tech Stack
-- **Framework**: Unity 2022.3 LTS
+- **Framework**: Unity 6.1
 - **Physics Engine**: Zibra Liquids or Obi Fluid
 - **Platform**: iOS (Android in future)
 - **Multiplayer**: Local split-screen only initially

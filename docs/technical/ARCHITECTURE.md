@@ -14,7 +14,7 @@
 5. **Local multiplayer** - Built-in support for split-screen
 
 ### Recommended Unity Setup
-- **Unity Version**: 2022.3 LTS (Long Term Support)
+- **Unity Version**: 6.1
 - **Water Physics**: Zibra Liquids (best looking) or Obi Fluid (good performance)
 - **Input System**: New Unity Input System for touch controls
 - **UI Framework**: Unity UI Toolkit
@@ -105,7 +105,7 @@ WaterballGame/
 4. Apple Developer documentation - iOS specific features
 
 ## Next Steps
-1. Download Unity Hub and Unity 2022.3 LTS
+1. Download Unity Hub and Unity 6.1
 2. Create new 3D mobile project
 3. Import water physics asset
 4. Start with Phase 1 prototype

@@ -17,15 +17,42 @@ Mark tasks as ✅ when completed. Add new tasks as discovered.
 - [x] Create PERFORMANCE_TARGETS.md with optimization strategies
 - [x] Create DEVELOPMENT_PLAN.md with detailed TDD implementation steps
 
-## Phase 1: Foundation Setup
-- [ ] Install Unity Hub and Unity 2022.3 LTS
-- [ ] Create new Unity 3D project named "WaterballGame"
-- [ ] Configure iOS build settings in Unity
-- [ ] Initialize git repository with .gitignore for Unity
-- [ ] Set up Unity Test Framework
-- [ ] Create basic project folder structure
-- [ ] Write first failing test for scene loading
-- [ ] Create minimal scene to pass test
+## Phase 1: Foundation Setup (Week 1)
+**📖 Step-by-Step Guide**: [Phase 1 Implementation Guide](docs/reference/PHASE1_GUIDE.md)
+
+### Day 1: Unity Setup ⏱ 4-6 hours
+- [x] Install Unity Hub
+- [x] Install Unity 6.1 with iOS support
+- [ ] Create new Unity 3D (URP) project named "WaterballGame"
+- [ ] Switch platform to iOS
+- [ ] Verify initial build works
+
+### Day 2: Git & Structure ⏱ 4 hours
+- [ ] Initialize git repository with Unity .gitignore
+- [ ] Create folder structure (Assets/_Game/Scripts, etc.)
+- [ ] Set up assembly definitions
+- [ ] Make initial commit and push
+
+### Day 3: Test Framework ⏱ 5 hours
+- [ ] Install Unity Test Framework
+- [ ] Create EditMode test example
+- [ ] Create PlayMode test structure
+- [ ] Configure test assemblies
+- [ ] Verify all tests run
+
+### Day 4: Scene Creation ⏱ 5 hours
+- [ ] Write test for scene objects
+- [ ] Create GameScene with required objects
+- [ ] Create basic playing field
+- [ ] Add scene to build settings
+- [ ] All tests passing
+
+### Day 5: iOS Configuration ⏱ 5 hours
+- [ ] Configure iOS player settings
+- [ ] Create build script
+- [ ] Test iOS build in Xcode
+- [ ] Run on physical device
+- [ ] Document any issues
 
 ## Phase 2: Core Mechanics
 - [ ] Write tests for ball spawning system

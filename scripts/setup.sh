@@ -16,7 +16,7 @@ echo "✅ macOS detected - iOS development supported"
 if ! command -v unity-hub &> /dev/null; then
     echo "📥 Unity Hub not found. Please install from: https://unity.com/download"
     echo "   1. Download Unity Hub"
-    echo "   2. Install Unity 2022.3 LTS"
+    echo "   2. Install Unity 6.1"
     echo "   3. Add iOS Build Support module"
     exit 1
 fi
@@ -33,12 +33,12 @@ fi
 echo "✅ Xcode found"
 
 # Check Unity version
-UNITY_VERSION="2022.3"
+UNITY_VERSION="6.1"
 if unity-hub list 2>/dev/null | grep -q "$UNITY_VERSION"; then
-    echo "✅ Unity $UNITY_VERSION LTS found"
+    echo "✅ Unity $UNITY_VERSION found"
 else
-    echo "📥 Unity $UNITY_VERSION LTS not found"
-    echo "   Install via Unity Hub: Add -> $UNITY_VERSION LTS -> iOS Build Support"
+    echo "📥 Unity $UNITY_VERSION not found"
+    echo "   Install via Unity Hub: Add -> $UNITY_VERSION -> iOS Build Support"
     exit 1
 fi
 

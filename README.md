@@ -7,7 +7,7 @@ Mobile adaptation of the classic water-filled handheld hockey game where players
 ## 🎯 Project Overview
 
 **Platform:** iOS (Android planned for v2.0)  
-**Engine:** Unity 2022.3 LTS  
+**Engine:** Unity 6.1  
 **Timeline:** 10 weeks from setup to App Store  
 **Methodology:** Test-Driven Development (TDD)
 
@@ -123,4 +123,4 @@ Mobile adaptation of the classic water-filled handheld hockey game where players
 
 ---
 
-**Made with Unity 2022 | iOS 14.0+ | Test-Driven Development**
+**Made with Unity 6.1 | iOS 14.0+ | Test-Driven Development**

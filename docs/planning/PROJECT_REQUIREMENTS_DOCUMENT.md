@@ -88,7 +88,7 @@ Create a mobile adaptation of the classic water-filled handheld hockey game, whe
 ## 4. Technical Requirements
 
 ### 4.1 Development Platform
-- **TR-001**: Unity 2022.3 LTS as game engine
+- **TR-001**: Unity 6.1 as game engine
 - **TR-002**: C# as primary programming language
 - **TR-003**: Visual Studio or Rider as IDE
 - **TR-004**: Git for version control
