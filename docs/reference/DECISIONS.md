@@ -31,15 +31,17 @@ Track important technical and design decisions for future reference. As a solo d
 **Trade-offs**: Less stability than LTS, but access to newest features
 **Revisit**: If stability issues arise, consider using an earlier LTS version
 
-### 2024-01-13 - Water Physics Solution
-**Context**: Need realistic water simulation that performs well on mobile
+### 2024-01-14 - Water Physics Solution (UPDATED)
+**Context**: Need realistic water simulation that performs well on mobile WITHOUT paid assets
 **Options Considered**: 
-1. Zibra Liquids ($199) - Best visuals, optimized for mobile
-2. Obi Fluid ($90) - Good physics, requires more optimization
-3. Custom particle system - Free but time-intensive
-**Decision**: Zibra Liquids (pending performance tests)
-**Trade-offs**: Higher cost for better performance and visuals
-**Revisit**: After Phase 3 performance benchmarks
+1. Unity Particle System (Free) - Built-in, mobile-optimized, good enough visuals
+2. Custom physics spheres (Free) - More control but performance limited
+3. 2D shader effects (Free) - Great performance but less realistic physics
+4. Zibra Liquids ($199) - Best visuals but expensive
+5. Obi Fluid ($90) - Good physics but still costs money
+**Decision**: Unity's built-in Particle System with visual shader enhancements
+**Trade-offs**: Less realistic than paid solutions but zero cost and proven performance
+**Revisit**: Only if particle system proves inadequate during Phase 3 testing
 
 ### 2024-01-13 - Architecture Pattern
 **Context**: Solo development needs simple, maintainable architecture

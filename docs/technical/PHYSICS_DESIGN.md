@@ -14,18 +14,38 @@ This document defines the physics simulation requirements and calculations for r
 - Real-time performance on mobile devices
 - Responsive to player input (jets)
 - Visually appealing water movement
+- **Cost-effective**: Free implementation using Unity built-in features
 
-### Water Particle System
+### Free Water Implementation Strategy
 
-#### Particle Properties
+#### Approach 1: Unity Particle System (RECOMMENDED)
+Using Unity's built-in Shuriken particle system - completely free and mobile-optimized.
+
+**Particle Properties**
 ```
-Particle Count: 2000-5000 (dynamic based on device)
-Particle Mass: 0.1 kg
-Particle Radius: 0.02 units
-Viscosity: 0.8 (water-like)
-Surface Tension: 0.1
-Damping: 0.95
+Particle Count: 500-1000 (mobile-optimized)
+Particle Size: 0.05-0.1 units
+Emission Rate: 100-300 particles/second
+Lifetime: 2-3 seconds
+Gravity: Standard (1.0)
+Collision: Enabled with world
+Start Speed: 5-10 units/second (jet force)
 ```
+
+**Visual Enhancements (Free)**
+- Unity Shader Graph for water appearance
+- Particle sprites for splash effects
+- Color gradients for depth illusion
+- Emission shapes for jet nozzles
+
+#### Approach 2: 2D Water Effect (Alternative)
+For top-down view, use 2D shader effects with invisible physics forces.
+
+**Benefits**
+- Extremely performant
+- Visually impressive from top-down
+- No particle count limitations
+- Easy to implement
 
 #### Performance Optimization
 - **LOD System**: Reduce particles when far from camera
@@ -154,25 +174,43 @@ Physics Allocation: 5ms (30%)
 3. **Predictive Culling**: Don't simulate invisible areas
 4. **Batched Updates**: Process similar objects together
 
-## Water Simulation Implementation
+## Water Simulation Implementation (Free Approach)
 
-### Particle System Setup
+### Unity Particle System Setup
 ```csharp
+// Free implementation using built-in Unity Particle System
 ParticleSystem.MainModule main = waterParticles.main;
-main.startLifetime = Mathf.Infinity;
-main.startSpeed = 0f;
-main.maxParticles = GetOptimalParticleCount();
+main.startLifetime = 3f; // Limited lifetime for performance
+main.startSpeed = 5f; // Jet initial velocity
+main.maxParticles = 1000; // Mobile-friendly limit
 main.simulationSpace = ParticleSystemSimulationSpace.World;
+main.gravityModifier = 1f;
+
+// Enable collision for ball interaction
+var collision = waterParticles.collision;
+collision.enabled = true;
+collision.type = ParticleSystemCollisionType.World;
+collision.bounce = 0.1f;
+collision.dampen = 0.8f;
 ```
 
-### Custom Physics Integration
+### Free Water Physics Integration
 ```csharp
 void FixedUpdate()
 {
-    UpdateWaterParticles();
-    ApplyJetForces();
-    CalculateBuoyancy();
+    // Simplified free approach
+    UpdateParticleJets(); // Control particle emission
+    ApplyParticleForcesToBalls(); // Custom force transfer
+    CalculateBuoyancy(); // Simple float calculation
     DetectGoalCollisions();
+}
+
+// Visual Enhancement with Free Shaders
+void EnhanceWaterVisuals()
+{
+    // Use Unity Shader Graph (free) for water surface
+    // Add refraction/reflection with screen-space effects
+    // Use particle sprites for splashes (free assets)
 }
 ```
 
@@ -200,13 +238,21 @@ float CalculateWaterForceOnBall(Ball ball)
 - **Boundaries Work**: Confirm collision detection
 - **Performance**: Maintain target frame rates
 
-### Calibration Values
+### Calibration Values (Free Implementation)
 ```
 Jet Force Range: 25-75 Newtons (user testing)
 Ball Mass Range: 0.03-0.08 kg (gameplay feel)
-Water Viscosity: 0.6-1.0 (visual appeal)
-Particle Count: 1000-8000 (performance)
+Particle Emission Rate: 100-300/second (performance)
+Particle Count: 500-1000 (mobile limit)
+Force Influence Radius: 0.5 units
+Visual Enhancement: Shader-based (not physics)
 ```
+
+### Free Asset Resources
+- **Unity Particle Pack**: Free on Asset Store
+- **Shader Graph**: Built into Unity (water shaders)
+- **Standard Assets**: Legacy but useful water effects
+- **OpenGameArt**: Free water sprites and textures
 
 ### Edge Cases
 - Multiple balls in goal simultaneously

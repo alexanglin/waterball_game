@@ -80,15 +80,17 @@ Mark tasks as ✅ when completed. Add new tasks as discovered.
 - [ ] Implement boundary colliders
 
 ## Phase 3: Water Physics
-- [ ] Research Unity water physics solutions
-- [ ] Evaluate Zibra Liquids performance
-- [ ] Evaluate Obi Fluid as alternative
-- [ ] Write tests for water system initialization
-- [ ] Integrate chosen water solution
-- [ ] Write tests for water-ball interaction
-- [ ] Implement buoyancy system
+- [x] Research Unity water physics solutions ✅ Selected free Unity Particle System
+- [ ] ~~Evaluate Zibra Liquids performance~~ (Not needed - using free solution)
+- [ ] ~~Evaluate Obi Fluid as alternative~~ (Not needed - using free solution)
+- [ ] Write tests for particle system initialization
+- [ ] Implement Unity Particle System for water
+- [ ] Configure particle emission from jet positions
+- [ ] Write tests for particle-ball collision
+- [ ] Implement custom force transfer from particles to balls
+- [ ] Create water shader with Shader Graph
 - [ ] Write performance benchmark tests
-- [ ] Optimize water particle count
+- [ ] Optimize particle count (target: 500-1000 max)
 
 ## Phase 4: Game Logic
 - [ ] Write tests for goal detection

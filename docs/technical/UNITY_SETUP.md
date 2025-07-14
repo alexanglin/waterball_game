@@ -70,26 +70,27 @@ Location: [Your preferred directory]
 
 ## Water Physics Solutions
 
-### Option 1: Zibra Liquids (Recommended)
-- **Source**: Unity Asset Store
-- **Price**: $199 (one-time)
-- **Performance**: Excellent on modern devices
-- **Quality**: Photorealistic water
-- **Mobile Optimization**: Built-in
-
-### Option 2: Obi Fluid (Alternative)
-- **Source**: Unity Asset Store  
-- **Price**: $90 (one-time)
-- **Performance**: Good with optimization
-- **Quality**: Very good
-- **Mobile Optimization**: Requires tuning
-
-### Option 3: Custom Particle System (Fallback)
-- **Source**: Unity built-in
-- **Price**: Free
-- **Performance**: Highly optimizable
-- **Quality**: Basic but functional
+### Selected Approach: Unity Particle System (FREE)
+- **Source**: Unity built-in - no additional cost
+- **Price**: $0
+- **Performance**: Excellent with proper optimization
+- **Quality**: Good with shader enhancements
 - **Mobile Optimization**: Full control
+
+**Implementation Details**:
+- Use Shuriken particle system for water
+- Limit to 1000 particles for mobile
+- Enhanced with free Unity Shader Graph
+- Particle collision for ball interaction
+
+### Alternative Free Options
+1. **2D Water Shader** - Top-down shader effects
+2. **Physics Spheres** - Small colliders with cohesion
+3. **Mesh Deformation** - Vertex-based water surface
+
+### Paid Options (Not Used)
+- Zibra Liquids ($199) - Best quality but expensive
+- Obi Fluid ($90) - Good but still costs money
 
 ## Project Structure
 
